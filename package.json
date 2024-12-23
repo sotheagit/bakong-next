@@ -1,0 +1,15 @@
+{
+  "name": "QR",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node api/generateQR.js"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "qrcode": "^1.5.0",
+    "canvas": "^2.7.0",
+    "bakong-khqr": "^1.0.0"
+  }
+}

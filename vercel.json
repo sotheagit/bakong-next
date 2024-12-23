@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/*.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/generateQR", "dest": "api/generateQR.js" },
+    { "src": "/check_transaction", "dest": "api/checkTransaction.js" },
+    { "src": "/qr/(.*)", "dest": "api/qr.js" }
+  ]
+}
